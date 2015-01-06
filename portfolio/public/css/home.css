@@ -391,7 +391,13 @@ h1 {
   background-color: rgba(47, 41, 44, 0.9);
   padding: 100px 0px; }
   .contact h1 {
-    color: #ca7e7e; }
+    color: #ca7e7e;
+    margin-bottom: 30px; }
+  .contact .msg, .contact .error {
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    text-align: center; }
 
 .topbar {
   position: fixed;
