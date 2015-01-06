@@ -314,7 +314,7 @@
                 <form id="form" action="mailer.php" method="post" name="form">
                     <input id="name" name="name" placeholder="Name" type="text" autocomplete="off" required>
                     <input id="email" name="email" placeholder="Email" type="email" autocomplete="off" required>
-                    <textarea id="message" name="msg" placeholder="Talk to me!"></textarea>
+                    <textarea id="message" name="message" placeholder="Talk to me!"></textarea>
                     <input id="send" name="submit" type="submit" value="Send">
                 </form>
             </div>
