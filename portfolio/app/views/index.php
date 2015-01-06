@@ -715,7 +715,6 @@
                 });
                 $(window).scroll(function(){
                     if ($(this).scrollTop() > 140) {
-                        console.log("y");
                         $('.topbar').removeClass("hidden");
                     } else {
                         $('.topbar').addClass("hidden");

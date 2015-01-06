@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1); error_reporting(-1);
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
