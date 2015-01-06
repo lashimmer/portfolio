@@ -12,20 +12,20 @@ $(function() {
 		    type: 'POST',
 		    url: $(form).attr('action'),
 		    data: formData
-		}).done(function(response) {
-			$('.error').hide();
-		    $('.msg').fadeIn();
+		}).done(function(response) {		    
 
 		    // Clear the form.
 		    $('#name').val('');
 		    $('#email').val('');
 		    $('#message').val('');
 		}).fail(function(data) {
-			$('.msg').hide();
-		    $('.error').fadeIn();
 		    console.log(data.responseText);
 		});
 
+		$('.msg').fadeIn();
+		$('#name').val('');
+		$('#email').val('');
+		$('#message').val('');
 
 	});
 
