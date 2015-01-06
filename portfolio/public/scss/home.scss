@@ -490,16 +490,7 @@ h1 {
 .contact {
 	background-color:$dark;
 	color:$light;
-	padding:100px;
-	a {
-		color:$c2;
-	}
-	a:hover {
-		color:white;
-	}
-	a img {
-		height:30px;
-	}
+	
 }
 .topbar {
 	position:fixed;
@@ -661,7 +652,9 @@ h1 {
 	@include opacity(0);
 }
 
-
+form {
+	width:100%;
+}
 input[type="text"], input[type="password"], input[type="email"], textarea {
   display:block;
   width:80%;

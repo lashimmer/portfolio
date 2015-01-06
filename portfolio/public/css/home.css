@@ -388,14 +388,7 @@ h1 {
     width: 1000px; } }
 .contact {
   background-color: rgba(47, 41, 44, 0.9);
-  color: whitesmoke;
-  padding: 100px; }
-  .contact a {
-    color: #ca7e7e; }
-  .contact a:hover {
-    color: white; }
-  .contact a img {
-    height: 30px; }
+  color: whitesmoke; }
 
 .topbar {
   position: fixed;
@@ -541,6 +534,9 @@ h1 {
   height: 0;
   opacity: 0;
   filter: alpha(opacity=0); }
+
+form {
+  width: 100%; }
 
 input[type="text"], input[type="password"], input[type="email"], textarea {
   display: block;
