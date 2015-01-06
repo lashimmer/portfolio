@@ -4,6 +4,7 @@ $(function() {
 
     $(form).submit(function(event) {
 	    // Stop the browser from submitting the form.
+	    console.log("hi");
 	    event.preventDefault();
 
 	    var formData = $(form).serialize();
