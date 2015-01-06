@@ -18,5 +18,12 @@ Route::get('/', function()
 
 Route::get('/cv', function()
 {
-	return URL::to('/cv.pdf')
+	
+    // Get the file content to put into your response
+    $content = file_get_contents("cv.pdf");
+    //Build your Laravel Response with your content, the HTTP code and the Header application/pdf
+    return Response::make($content, 200, array('content-type'=>'application/pdf'));
+}
+
+
 });
