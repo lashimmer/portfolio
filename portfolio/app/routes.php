@@ -18,11 +18,28 @@ Route::get('/', function()
 
 Route::get('/cv', function()
 {
-	
     // Get the file content to put into your response
     $content = file_get_contents("cv.pdf");
     //Build your Laravel Response with your content, the HTTP code and the Header application/pdf
     return Response::make($content, 200, array('content-type'=>'application/pdf'));
-
-
 });
+
+Route::get('/jelly', function()
+{
+	return View::make('jelly');
+});
+
+Route::get('/boards', function()
+{
+	return View::make('yourboards');
+});
+
+Route::get('/challenge', function()
+{
+	return View::make('challenge');
+});
+
+Route::any('{all}', function($uri)
+{
+    return View::make('error');
+})->where('all', '.*');
