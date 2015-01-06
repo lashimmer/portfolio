@@ -15,3 +15,8 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+
+Route::get('/cv', function()
+{
+	link_to('cv.pdf', 'Link');
+});
