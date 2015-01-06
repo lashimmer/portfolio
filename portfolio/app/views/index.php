@@ -21,7 +21,7 @@
                 <h1>Shanna Wang</h1>
                 <div class="location"><img src="img/pin_dark.png">
                 Montreal, QC<br>
-                <a href="cv.pdf" target="_blank"><img src="img/icon_dl.png">
+                <a href="/cv" target="_blank"><img src="img/icon_dl.png">
                 CV</div></a>
 
                 UI/UX front-end developer, 
@@ -557,10 +557,10 @@
                             <div class="icon">
                             </div>
                         </a>
-                       <!--  <a href="#" target="_blank" class="square site">
+                       <a href="/jelly" target="_blank" class="square site">
                             <div class="icon">
                             </div>
-                        </a> -->
+                        </a> 
                     </div>
 
                     <br>
