@@ -543,6 +543,7 @@ form {
 input[type="text"], input[type="password"], input[type="email"], textarea {
   display: block;
   width: 80%;
+  max-width: 500px;
   margin: 15px auto;
   padding: 15px;
   border: none;
@@ -563,7 +564,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea {
 
 textarea {
   resize: vertical;
-  height: 100px; }
+  height: 250px; }
 
 input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover {
   background-color: #f6dbdd;
