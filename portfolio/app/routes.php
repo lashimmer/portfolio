@@ -18,5 +18,5 @@ Route::get('/', function()
 
 Route::get('/cv', function()
 {
-	link_to('cv.pdf', 'Link');
+	return URL::to('cv.pdf')
 });
