@@ -3,11 +3,13 @@
         <meta charset="utf-8">
         <title>Shanna Wang</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        
+        <script src="./js/mail.js"></script>
+
         <link href="./css/home.css" rel="stylesheet">
         <link rel="icon" 
               type="image/png" 
               href="./img/logo_square.png">
+
     </head>
 
     <body>
@@ -304,12 +306,15 @@
 
             </div>
             <div class="contact">
-                <h1>Want to talk?</h1>
+                <h1>Want to chat?</h1>
 
-                <form id="form" method="post" name="form">
-                    <input name="name" placeholder="Name" type="text" value="" autocomplete="off">
-                    <input name="email" placeholder="Email" type="text" value="" autocomplete="off">
-                    <textarea name="msg" placeholder="Talk to me!"></textarea>
+                <div class="msg" style="display:none">Thank you for your message, I'll be in touch!</div>
+                <div class="error" style="display:none">An error occurred processing your message, please try again.</div>
+
+                <form id="form" action="mailer.php" method="post" name="form">
+                    <input id="name" name="name" placeholder="Name" type="text" autocomplete="off" required>
+                    <input id="email" name="email" placeholder="Email" type="email" autocomplete="off" required>
+                    <textarea id="message" name="msg" placeholder="Talk to me!"></textarea>
                     <input id="send" name="submit" type="submit" value="Send">
                 </form>
             </div>

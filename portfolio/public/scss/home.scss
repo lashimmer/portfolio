@@ -493,6 +493,13 @@ h1 {
 	padding:100px 0px;
 	h1 {
 		color:$c2;
+		margin-bottom:30px;
+	}
+	.msg, .error {
+		color:white;
+		font-size:16px;
+		width:80%;
+		text-align:center;
 	}
 }
 .topbar {
