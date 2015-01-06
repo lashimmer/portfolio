@@ -697,7 +697,6 @@ textarea {
 }
 
 input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover {
-  background-color:#f6dbdd;
     -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -706,6 +705,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
   border:0;
   outline:none;
   outline-color: transparent;
+  background-color:#f6dbdd;
   outline-offset: 0;
   color:black;
     -webkit-transition: all 0.3s ease-out;
