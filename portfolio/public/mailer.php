@@ -27,7 +27,15 @@
 
         // Build the email content.
         $email_content = "Name: $name\n";
-        $email_content .= "Email: $email\n\n";
+        $email_content .= "Email: $email\n";
+
+        date_default_timezone_set('America/Montreal');
+
+        // Then call the date functions
+        $date = date('Y-m-d H:i:s');
+
+        $email_content .= "Time: $date\n\n";
+        
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
