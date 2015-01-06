@@ -256,6 +256,7 @@ h1 {
   color: rgba(47, 41, 44, 0.9);
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 50px;
   /*	.work:nth-child(2):hover {
   		background-color:rgb(38,209,176) ;
   	}
