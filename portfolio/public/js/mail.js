@@ -22,7 +22,7 @@ $(function() {
 		}).fail(function(data) {
 			$('.msg').hide();
 		    $('.error').fadeIn();
-
+		    console.log(data.responseText);
 		});
 
 
