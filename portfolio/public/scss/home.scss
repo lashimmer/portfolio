@@ -490,7 +490,7 @@ h1 {
 .contact {
 	background-color:$dark;
 	color:$light;
-	
+	padding:100px 0px;
 }
 .topbar {
 	position:fixed;
@@ -681,20 +681,21 @@ input[type="text"], input[type="password"], input[type="email"], textarea {
 
 textarea {
 	resize:vertical;
+	height:100px
 }
 
-input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, text-area:hover {
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover {
   background-color:$c2;
     -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, text-area:focus {
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
   border:0;
   outline:none;
   outline-color: transparent;
   outline-offset: 0;
-  background-color:rgba(202,126,126,.05);
+  background-color:#f6dbdd;
   color:black;
     -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
