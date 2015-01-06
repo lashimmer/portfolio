@@ -304,11 +304,11 @@
 
             </div>
             <div class="contact">
-                <a href="javascript:;"><h1>Want to talk?</h1></a>
+                <h1>Want to talk?</h1>
 
                 <form id="form" method="post" name="form">
-                    <input name="name" placeholder="Name" type="text" value="">
-                    <input name="email" placeholder="Email" type="text" value="">
+                    <input name="name" placeholder="Name" type="text" value="" autocomplete="off">
+                    <input name="email" placeholder="Email" type="text" value="" autocomplete="off">
                     <textarea name="msg" placeholder="Talk to me!"></textarea>
                     <input id="send" name="submit" type="submit" value="Send">
                 </form>
