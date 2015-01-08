@@ -548,7 +548,7 @@ h1 {
 form {
   width: 100%; }
 
-input[type="text"], input[type="password"], input[type="email"], textarea {
+input, input[type="text"], input[type="password"], input[type="email"], textarea {
   display: block;
   width: 80%;
   max-width: 500px;
@@ -574,12 +574,12 @@ textarea {
   resize: vertical;
   height: 250px; }
 
-input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover {
+input:hover, input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+input:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
   border: 0;
   outline: none;
   outline-color: transparent;
