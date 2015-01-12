@@ -177,9 +177,7 @@ body {
 
 .layer:nth-child(3) {
   height: 170px;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-  background-color: #ca7e7e; }
+  background-color: #bb7677; }
 
 .tree {
   width: 0;

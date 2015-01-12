@@ -222,8 +222,7 @@ body {
 }
 .layer:nth-child(3) {
 	height:170px;
-	@include opacity(0.3);
-	background-color:$c2;
+	background-color:#bb7677;
 
 }
 .tree {
