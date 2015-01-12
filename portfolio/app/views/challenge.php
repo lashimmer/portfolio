@@ -67,7 +67,7 @@
     $(document).ready( function() {
       $("canvas.snow").let_it_snow();
       $('.parallax').scroll(function() {
-        var height = $(window).scrollTop();
+        var height = $('.parallax').scrollTop();
 
         if(height  > 250) {
             $('.logo').addClass("vis");
