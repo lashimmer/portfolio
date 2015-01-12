@@ -155,8 +155,7 @@ body {
 
 .layer:nth-child(2) {
   height: 200px;
-  opacity: 0.3;
-  background-color: #ca7e7e; }
+  background-color: #9a6667; }
   .layer:nth-child(2) .m:nth-child(1) {
     right: 0;
     height: 300px;
