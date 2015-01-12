@@ -1,7 +1,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Shanna Wang</title>
+        <title>Design</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
         <link href="./css/challenge.css" rel="stylesheet">
@@ -13,6 +13,15 @@
 
     <body>
         <div class="content">
+            <nav>
+              <a href="/">About</a>
+              <a href="">HI</a>
+            </nav>
+
+
+
+
+
 
         </div>
     </body>

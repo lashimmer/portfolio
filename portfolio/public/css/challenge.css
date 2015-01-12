@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("fonts/Roboto-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("fonts/Roboto-Thin.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Signika Light';
+  src: url("fonts/Signika-Light.otf") format("truetype"); }
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Light';
+  font-weight: 300;
+  background-color: whitesmoke;
+  color: rgba(47, 41, 44, 0.9); }
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease; }
+
+a:hover {
+  color: #875064; }
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+nav {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(47, 41, 44, 0.9); }
