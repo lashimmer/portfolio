@@ -43,6 +43,25 @@ body {
   top: 0;
   left: 0; }
 
+.logo-top {
+  background: url("../img/logo_black.png") center center no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  transition: 0.5s all ease; }
+
+.logo-top:hover {
+  background: url("../img/logo_white.png") center center no-repeat;
+  background-size: contain; }
+
 .logo {
   cursor: pointer;
   height: 50px;

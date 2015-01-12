@@ -98,13 +98,13 @@ body {
 
 .logo-top {
 	background:url("../img/logo_black.png") center center no-repeat;
-		background-size:contain;
-		width:100px;
-		height:100px;
-		margin:0 auto;
-		position:relative;
-		@include opacity(0.3);
-		@include transition(0,5s all ease);
+	background-size:contain;
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	position:relative;
+	@include opacity(0.3);
+	@include transition(0.5s all ease);
 }
 .logo-top:hover {
 	background:url("../img/logo_white.png") center center no-repeat;
