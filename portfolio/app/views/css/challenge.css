@@ -49,6 +49,7 @@ body {
   width: 100px;
   height: 100px;
   margin: 0 auto;
+  margin-top: 60px;
   position: relative;
   opacity: 0.3;
   filter: alpha(opacity=30);

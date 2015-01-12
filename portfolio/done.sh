@@ -24,6 +24,6 @@ sass public/scss/challenge.scss app/views/css/challenge.css
 
 echo "Conversion done!"
 
-# git add --all *
-# git commit -m "/design update"
-# git push origin master
+git add --all *
+git commit -m "winter"
+git push origin master
