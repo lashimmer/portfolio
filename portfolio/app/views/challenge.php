@@ -27,8 +27,10 @@
             </div>
             <div class="layer"></div>
             
+            <div class="logo-top"></div>
 
           </div>
+
         </div>
 
               <canvas class="snow"></canvas>
