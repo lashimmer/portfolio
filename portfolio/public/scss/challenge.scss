@@ -118,7 +118,7 @@ body {
 	width:50px;
 	position:fixed;
 	right:40px;
-	bottom:30px;
+	bottom:-100px;
 	@include border-radius(50%);
 	background: url('../img/logo_white.png') center center no-repeat $dark;
 	background-size:30px auto;
@@ -127,6 +127,9 @@ body {
 }
 .logo:hover {
 	@include opacity(0.8);
+}
+.logo.vis {
+	bottom:30px;
 }
 
 .parallax {

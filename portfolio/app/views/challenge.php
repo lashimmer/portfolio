@@ -66,7 +66,16 @@
     <script type="text/javascript">
     $(document).ready( function() {
       $("canvas.snow").let_it_snow();
+      $(window).scroll(function() {
+        var height = $(window).scrollTop();
 
+        if(height  > 250) {
+            $('.logo').addClass("vis");
+        }
+        else {
+            $('.logo').removeClass("vis");
+        }
+    });
 
 
     });

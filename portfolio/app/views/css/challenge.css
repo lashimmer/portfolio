@@ -69,7 +69,7 @@ body {
   width: 50px;
   position: fixed;
   right: 40px;
-  bottom: 30px;
+  bottom: -100px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -87,6 +87,9 @@ body {
 .logo:hover {
   opacity: 0.8;
   filter: alpha(opacity=80); }
+
+.logo.vis {
+  bottom: 30px; }
 
 .parallax {
   perspective: 1px;
