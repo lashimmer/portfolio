@@ -108,7 +108,7 @@ body {
   transform: translateZ(-1px) scale(2); }
 
 .mountains {
-  height: 400px;
+  height: 340px;
   width: 100%;
   position: relative;
   background: transparent; }
