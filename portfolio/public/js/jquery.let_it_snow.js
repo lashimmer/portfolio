@@ -21,7 +21,7 @@
     count: 300,
     opacity: 0,
     color: "#ffffff",
-    windPower: 0,
+    windPower: 1,
     image: false
 	};
 	
