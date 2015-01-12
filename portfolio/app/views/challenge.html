@@ -27,11 +27,13 @@
             </div>
             <div class="layer"></div>
             
+            <div class="logo-top"></div>
 
           </div>
+
         </div>
 
-              <canvas class="snow"></canvas>
+        <canvas class="snow"></canvas>
 
         <div class="base">
             <div class="content">
@@ -42,7 +44,8 @@
               <div class="tree"></div>  
 
             <div class="intro">
-              Design 
+              <h1>Design Challenge</h1>
+              This is where I'm going to upload my random designs, drawings, and doodles.
             </div>
           </div>
         </div>
@@ -64,7 +67,16 @@
     <script type="text/javascript">
     $(document).ready( function() {
       $("canvas.snow").let_it_snow();
+      $('.parallax').scroll(function() {
+        var height = $('.parallax').scrollTop();
 
+        if(height  > 180) {
+            $('.logo').addClass("vis");
+        }
+        else {
+            $('.logo').removeClass("vis");
+        }
+    });
 
 
     });
