@@ -33,7 +33,7 @@
 
         </div>
 
-              <canvas class="snow"></canvas>
+        <canvas class="snow"></canvas>
 
         <div class="base">
             <div class="content">
@@ -44,7 +44,8 @@
               <div class="tree"></div>  
 
             <div class="intro">
-              Design 
+              <h1>Design Challenge</h1>
+              This is where I'm going to upload my random designs, drawings, and doodles.
             </div>
           </div>
         </div>
