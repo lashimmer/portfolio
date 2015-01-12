@@ -66,7 +66,7 @@
     <script type="text/javascript">
     $(document).ready( function() {
       $("canvas.snow").let_it_snow();
-      $(window).scroll(function() {
+      $('.parallax').scroll(function() {
         var height = $(window).scrollTop();
 
         if(height  > 250) {
