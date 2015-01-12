@@ -18,7 +18,7 @@
     speed: 0,
     interaction: true,
     size: 2,
-    count: 200,
+    count: 300,
     opacity: 0,
     color: "#ffffff",
     windPower: 0,
