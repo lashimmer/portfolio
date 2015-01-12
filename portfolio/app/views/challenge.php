@@ -69,7 +69,7 @@
       $('.parallax').scroll(function() {
         var height = $('.parallax').scrollTop();
 
-        if(height  > 250) {
+        if(height  > 210) {
             $('.logo').addClass("vis");
         }
         else {
