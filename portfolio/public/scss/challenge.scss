@@ -181,7 +181,7 @@ body {
 
 
 .layer:nth-child(1) {
-	height:240px;
+	height:220px;
 	@include opacity(0.3);
 	background-color:white;
 
@@ -202,7 +202,7 @@ body {
 }
 
 .layer:nth-child(2) {
-	height:200px;
+	height:190px;
 	background-color:#bcbabb;
 
 	.m:nth-child(1){
