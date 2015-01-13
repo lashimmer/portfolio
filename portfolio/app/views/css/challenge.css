@@ -130,10 +130,10 @@ body {
   transform-origin: 0 0; }
 
 .layer:nth-child(1) {
-  height: 250px;
+  height: 240px;
   opacity: 0.3;
   filter: alpha(opacity=30);
-  background-color: #ca7e7e; }
+  background-color: white; }
   .layer:nth-child(1) .m:nth-child(1) {
     left: 0;
     height: 300px;
@@ -155,7 +155,7 @@ body {
 
 .layer:nth-child(2) {
   height: 200px;
-  background-color: #9a6667; }
+  background-color: #bcbabb; }
   .layer:nth-child(2) .m:nth-child(1) {
     right: 0;
     height: 300px;
@@ -177,7 +177,7 @@ body {
 
 .layer:nth-child(3) {
   height: 170px;
-  background-color: #bb7677; }
+  background-color: #eae9ea; }
 
 .tree {
   width: 0;
