@@ -97,14 +97,14 @@
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
-                            <div class="circle"></div>
+                            <div class="circle fill"></div>
                             <div class="circle"></div>
                         </div>
                         <div class="items">
                             Express.js
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
-                            <div class="circle"></div>
+                            <div class="circle fill"></div>
                             <div class="circle"></div>
                             <div class="circle"></div>
                         </div>
@@ -125,7 +125,7 @@
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
-                            <div class="circle"></div>
+                            <div class="circle fill"></div>
                             <div class="circle"></div>
                         </div>
                         <div class="items">
@@ -133,7 +133,7 @@
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
-                            <div class="circle"></div>
+                            <div class="circle fill"></div>
                             <div class="circle"></div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                     </div>
                     <div class="category">
                         <div class="items">
-                            <div class="circle"></div>
+                            <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
@@ -169,8 +169,8 @@
                             Java
                         </div>
                         <div class="items">
-                            <div class="circle"></div>
-                            <div class="circle"></div>
+                            <div class="circle fill"></div>
+                            <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
@@ -179,21 +179,23 @@
                         <div class="items">
                             <div class="circle"></div>
                             <div class="circle"></div>
-                            <div class="circle"></div>
+                            <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             C
                         </div>
                         <div class="items">
                             <div class="circle"></div>
-                            <div class="circle"></div>                            <div class="circle fill"></div>
+                            <div class="circle"></div>                            
+                            <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             OCaml
                         </div>
                         <div class="items">
                             <div class="circle"></div>
-                            <div class="circle"></div>                            <div class="circle fill"></div>
+                            <div class="circle fill"></div>                            
+                            <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             <div class="circle fill"></div>
                             Ruby
