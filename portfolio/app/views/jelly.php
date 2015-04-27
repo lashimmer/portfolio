@@ -49,7 +49,7 @@
 	  	<div class="content-container js-masonry"
   data-masonry-options='{ "itemSelector": "article" }'>
 			<article class="profile">
-				<div class="photo-bg" style="background:url(http://37.media.tumblr.com/95a827cdab156957f74df9bf8dc32cd6/tumblr_n368494Tjj1rt7dy9o3_r1_250.png) center center no-repeat;background-size:cover">
+				<div class="photo-bg" style="background:url(https://41.media.tumblr.com/95a827cdab156957f74df9bf8dc32cd6/tumblr_n368494Tjj1rt7dy9o3_r1_250.png) center center no-repeat;background-size:cover">
 					
 				</div>
 				<div class="photo-circle" style="background:url(https://31.media.tumblr.com/avatar_cb12d7f76858_128.png) center center no-repeat;background-size:cover">
@@ -62,7 +62,7 @@
 						Follow
 					</a>
 				</div>
-				<div class="des-foot" style="background:url(http://37.media.tumblr.com/95a827cdab156957f74df9bf8dc32cd6/tumblr_n368494Tjj1rt7dy9o3_r1_250.png) bottom center no-repeat;background-size:cover">
+				<div class="des-foot" style="background:url(https://37.media.tumblr.com/95a827cdab156957f74df9bf8dc32cd6/tumblr_n368494Tjj1rt7dy9o3_r1_250.png) bottom center no-repeat;background-size:cover">
 					<div class="des-more">
 						Montreal, QC
 					</div>
