@@ -3,9 +3,9 @@ app.controller("BlogController", function($scope, $timeout){
 	$scope.current = 1;
 
 	$scope.images = [
-	    '37.media.tumblr.com/064595cc4cf72eee573ba2a652464538/tumblr_n6pgpilWJJ1qhttpto2_500.jpg',
-	    '38.media.tumblr.com/383ba7fd67f5373f6bf458b421f2d44b/tumblr_n6pgpilWJJ1qhttpto5_500.jpg', 
-	    '37.media.tumblr.com/65e5959f0030ff9e9fce285efd87b55f/tumblr_n51yxgWHiE1qgb4moo1_500.gif'
+	    'http://40.media.tumblr.com/bdbee3a6ac23f5d768b79adb6ab7a59f/tumblr_mgxjg7w8fr1qghx25o1_500.jpg',
+	    'http://40.media.tumblr.com/d22b91807c5db2230e9805bd36e7e827/tumblr_mp3tgv42N11qhttpto1_500.jpg', 
+	    'http://36.media.tumblr.com/18bb22dfc8fae54a50577e90b1c4d8f1/tumblr_mprdi1scCH1qzs96uo1_500.png'
 	];
 
 	$scope.current = 0;
