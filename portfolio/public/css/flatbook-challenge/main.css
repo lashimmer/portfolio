@@ -717,7 +717,8 @@ nav {
   color: #5c5c5c;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.13);
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 11; }
   .lang img {
     margin-right: 5px; }
 
@@ -1017,18 +1018,18 @@ input[type="date"], select {
 
 #bed {
   padding-left: 25px;
-  background: url("../../img/flatbook-challenge/bed.png") left center no-repeat;
-  background-size: auto 20px; }
+  background: url("../../img/flatbook-challenge/bed.png") left center no-repeat, url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
+  background-size: auto 20px, auto auto; }
 
 #size {
   padding-left: 25px;
-  background: url("../../img/flatbook-challenge/size.png") left center no-repeat;
-  background-size: auto 20px; }
+  background: url("../../img/flatbook-challenge/size.png") left center no-repeat, url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
+  background-size: auto 20px, auto auto; }
 
 #bath {
   padding-left: 25px;
-  background: url("../../img/flatbook-challenge/bathroom.png") left center no-repeat;
-  background-size: auto 20px; }
+  background: url("../../img/flatbook-challenge/bathroom.png") left center no-repeat, url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
+  background-size: auto 20px, auto auto; }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
