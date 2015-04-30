@@ -28,7 +28,10 @@ Route::get('/jelly', function()
 {
 	return View::make('jelly');
 });
-
+Route::get('/flatbook-challenge', function()
+{
+	return View::make('leasebookings');
+});
 Route::get('/boards', function()
 {
 	return View::make('yourboards');
