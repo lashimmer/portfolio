@@ -731,8 +731,8 @@ nav {
   -ms-filter: blur(7px);
   -o-filter: blur(7px);
   filter: blur(7px);
-  filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='7'%20/></filter></svg>#blur");
-  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='7'); }
+  filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='3'%20/></filter></svg>#blur");
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3'); }
 
 .login-overlay {
   position: absolute;
