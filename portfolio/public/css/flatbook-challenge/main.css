@@ -16,7 +16,8 @@ body, html {
   font-family: 'Avenir Next';
   font-size: 14px;
   background-color: white;
-  color: #4a4a4a; }
+  color: #4a4a4a;
+  -webkit-font-smoothing: subpixel-antialiased; }
 
 b {
   font-family: "Avenir Bold"; }
@@ -116,6 +117,8 @@ nav {
     -ms-transition: 0.5s left ease-out;
     -o-transition: 0.5s left ease-out;
     transition: 0.5s left ease-out; }
+  .content .fullview {
+    overflow: hidden; }
   .content .search.hidden {
     /*width:0;
     overflow:hidden;*/
@@ -1047,7 +1050,8 @@ input[type=range] {
 
 input[type=range]:focus {
   outline: none;
-  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */ }
+  /* Removes the blue border.  */
+  border: none; }
 
 input[type=range]::-ms-track {
   width: 100%;
