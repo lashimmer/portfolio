@@ -133,9 +133,11 @@ nav {
   .content .search.hidden {
     /*width:0;
     overflow:hidden;*/
+    position: fixed;
     left: -100%;
     z-index: 3; }
   .content .fullview.hidden {
+    position: fixed;
     left: 100%;
     z-index: 3; }
   .content .search .details .row {
@@ -202,6 +204,7 @@ nav {
         cursor: pointer;
         position: relative;
         height: 12px;
+        line-height: 12px;
         padding: 14px 20px;
         display: inline-block;
         background-color: #f4f4f4;
@@ -846,7 +849,7 @@ nav {
         color: white; }
   .login-overlay .button {
     cursor: pointer;
-    width: 30%;
+    width: 250px;
     color: white;
     margin: 10px auto;
     height: 12px;
@@ -1014,15 +1017,22 @@ input[type="checkbox"]:checked {
 .content .search :-ms-input-placeholder {
   color: #979797; }
 
-.content input[type="date"], .content select {
-  width: 30%;
+.moz-select {
+  display: inline-block;
   margin-right: 2%;
+  width: 26%;
+  height: 35px;
   margin-top: 10px;
+  border-bottom: 2px solid #979797; }
+
+.content input[type="date"], .content select {
+  width: 100%;
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
   border-radius: 0;
   padding: 10px 0;
+  margin-bottom: 10px;
   border: none;
   outline: none;
   font-family: 'Avenir Next';
@@ -1033,29 +1043,19 @@ input[type="checkbox"]:checked {
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
   background: url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
-  color: #979797;
-  border-bottom: 2px solid #979797; }
+  color: #979797; }
 
-.moz-select {
-  display: none;
-  margin: 0;
-  padding: 0; }
+.content input[type="date"] {
+  border-bottom: 2px solid #979797; }
 
 @-moz-document url-prefix() {
   .moz-select {
-    display: inline-block;
-    width: 30%;
-    margin-top: 10px;
-    height: 40px;
-    background: url("../../img/flatbook-challenge/triangle.png") right center no-repeat;
-    border-bottom: 2px solid #979797; }
+    background: url("../../img/flatbook-challenge/triangle.png") right center no-repeat; }
 
   .content select {
     height: 40px;
     -moz-appearance: window;
-    margin-left: -30%;
-    width: 32%;
-    padding-right: 20px;
+    width: 100%;
     background-color: transparent; } }
 
 .content select option {
@@ -1083,6 +1083,28 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 input[type="date"]::-webkit-inner-spin-button {
   display: none; }
 
+@media only screen and (max-width: 700px) {
+  .bars {
+    display: none; }
+
+  .content .search .details .row {
+    height: 180px; }
+
+  .content .search .details .row:last-child {
+    height: 90px; }
+
+  .content .search input[type="text"], .moz-select {
+    width: 100%;
+    margin-bottom: 10px; }
+
+  .moz-select:first-child {
+    margin-top: 0; }
+
+  .content .search .results .filters .number {
+    margin: 0 auto; }
+
+  .bed, .size, .bath {
+    width: 92%; } }
 input[type=range] {
   margin-left: -1px;
   background: transparent;
@@ -1202,41 +1224,46 @@ input[type=range]::-moz-range-track {
   .content .fullview .info {
     text-align: center; } }
 @media only screen and (max-width: 600px) {
-  .content .location {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding-right: 15px; }
-  .content .search .details .row .item {
-    padding: 0 15px; }
-  .content .search .results .listings .apartment {
-    width: 92%; }
-  .content .fullview .stats {
-    text-align: center; }
-  .content .fullview .info {
-    text-align: center; }
-  .content .fullview .pic {
-    height: 200px; }
-  .content .fullview .blurred, .content .fullview .topbar {
-    display: none; }
-  .content .fullview .scrollinfo {
-    width: 100%;
-    position: relative;
-    top: auto;
-    box-shadow: none; }
-  .content .fullview .scrollinfo.fix {
-    position: relative;
-    top: 0;
-    right: 0;
-    z-index: 2; }
-  .content .fullview .scrollnav {
-    display: none; }
-  .content .fullview .about {
-    width: 94%;
-    padding-top: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 40px; } }
+  .content {
+    /*.location {
+    	position:relative;
+    	width:100%;
+    	margin:0 auto;
+    	padding-right:15px;
+    }*/ }
+    .content .search .details .row .item {
+      padding: 0 15px; }
+    .content .search .results .listings .apartment {
+      width: 92%; }
+    .content .fullview .stats {
+      text-align: center; }
+    .content .fullview .info {
+      text-align: center; }
+    .content .fullview .pic {
+      height: 200px; }
+    .content .fullview .blurred, .content .fullview .topbar {
+      display: none; }
+    .content .fullview .scrollinfo {
+      width: 100%;
+      position: relative;
+      top: auto;
+      box-shadow: none; }
+    .content .fullview .scrollinfo.fix {
+      position: relative;
+      top: 0;
+      right: 0;
+      z-index: 2; }
+    .content .fullview .scrollnav {
+      display: none; }
+    .content .fullview .about {
+      width: 94%;
+      padding-top: 3%;
+      padding-left: 3%;
+      padding-right: 3%;
+      padding-bottom: 40px; }
+
+  .login-overlay .form {
+    width: 80%; } }
 @media only screen and (max-width: 950px) {
   .content {
     width: 100%; }

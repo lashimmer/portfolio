@@ -7,7 +7,6 @@
 
 	<title>Flatbook</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link href="./css/flatbook-challenge/main.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -71,43 +70,50 @@
 						<input class="date" type="text" placeholder="Moving in">
 					
 						<input class="date" type="text" placeholder="Moving out">
-						<div class="moz-select"></div>
-						<select>
-					        <option selected>No Roommates</option>
-					        <option>1 Roommate</option>
-					        <option>2 Roommates</option>
-					        <option>3 Roommates</option>
-					        <option>4 Roommates</option>
-					        <option>5 Roommates</option>
-					    </select>
+						<div class="moz-select">
+							<select>
+						        <option selected>No Roommates</option>
+						        <option>1 Roommate</option>
+						        <option>2 Roommates</option>
+						        <option>3 Roommates</option>
+						        <option>4 Roommates</option>
+						        <option>5 Roommates</option>
+						    </select>
+
+						</div>
+						
 					</div>
 				</div>
 				<div class="row">
 					<div class="item">Apartment</div>
 					<div class="option">
-						<div class="moz-select bed"></div>
-					    <select id="bed">
-					        <option selected> 1 Bedroom </option>
-					        <option>2 Bedrooms</option>
-					        <option>3 Bedrooms</option>
-					        <option>4 Bedrooms</option>
-					        <option>5 Bedrooms</option>
-					    </select>
-						<div class="moz-select bath"></div>
-					    <select id="bath">
-					        <option selected> 1 Bathroom </option>
-					        <option>2 Bathrooms</option>
-					        <option>3 Bathrooms</option>
-					        <option>4 Bathrooms</option>
-					        <option>5 Bathrooms</option>
-					    </select>
-						<div class="moz-select bath"></div>
-					    <select id="size">
+						<div class="moz-select bed">
+							<select id="bed">
+						        <option selected> 1 Bedroom </option>
+						        <option>2 Bedrooms</option>
+						        <option>3 Bedrooms</option>
+						        <option>4 Bedrooms</option>
+						        <option>5 Bedrooms</option>
+						    </select>
+						</div>
+					    
+						<div class="moz-select bath">
+							<select id="bath">
+						        <option selected> 1 Bathroom </option>
+						        <option>2 Bathrooms</option>
+						        <option>3 Bathrooms</option>
+						        <option>4 Bathrooms</option>
+						        <option>5 Bathrooms</option>
+						    </select>
+						</div>
+					    
+						<div class="moz-select bath"><select id="size">
 					        <option selected> +1000 sq ft </option>
 					        <option>1000 - 2000 sq ft</option>
 					        <option>2000 - 3000 sq ft</option>
 					        <option>3000+ sq ft</option>
-					    </select>
+					    </select></div>
+					    
 					</div>
 				</div>
 				<div class="row">
@@ -541,8 +547,10 @@
 
  			$('.label').html("$" + $("#pricerange").val());
     		$("#pricerange").on("input change", function() { 
-    			var percent = ($("#pricerange").val() - 1400) / (3000 - 1400) * 100;
-    			$('.label').html("$" + $("#pricerange").val()).css("margin-left", percent - 3 + "%");
+    			var value = $("#pricerange").val();
+    			var percent = (value - 1400)/ (3000 - 1400) * 100;
+    			var percentSkewed = (value - 1400)/ (3100 - 1400) * 100;
+    			$('.label').html("$" + $("#pricerange").val()).css("margin-left", percentSkewed + "%");
     			$('.progress-fill').css("width", percent + "%");
     			$('.progress-grey').css("width", 100 - percent + "%");
 
