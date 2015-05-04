@@ -1222,7 +1222,11 @@ input[type=range]::-moz-range-track {
   .content .fullview .stats {
     text-align: center; }
   .content .fullview .info {
-    text-align: center; } }
+    text-align: center; } 
+  .content .fullview .stats .item {
+    padding:10px;
+  }
+  }
 @media only screen and (max-width: 600px) {
   .content {
     /*.location {
