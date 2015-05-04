@@ -67,9 +67,12 @@
 				<div class="row">
 					<div class="item">Lease Term</div>
 					<div class="option">
-						<input class="date" type="text" placeholder="Moving in">
-					
-						<input class="date" type="text" placeholder="Moving out">
+						<div class="moz-select">
+							<input class="date" type="text" placeholder="Moving in">
+						</div>
+						<div class="moz-select">
+							<input class="date" type="text" placeholder="Moving out">
+						</div>
 						<div class="moz-select">
 							<select>
 						        <option selected>No Roommates</option>
@@ -247,15 +250,15 @@
 			</div>
 			<div class="stats">
 				<div class="item">
-					<img src="img/flatbook-challenge/bed.png"><br>
+					<img/flatbook-challenge src="img/flatbook-challenge/bed.png"><br>
 					5 Bedrooms
 				</div>
 				<div class="item">
-					<img src="img/flatbook-challenge/bathroom.png"><br>
+					<img/flatbook-challenge src="img/flatbook-challenge/bathroom.png"><br>
 					2 Bathrooms
 				</div>
 				<div class="item">
-					<img src="img/flatbook-challenge/size.png"><br>
+					<img/flatbook-challenge src="img/flatbook-challenge/size.png"><br>
 					1500 sq ft
 				</div>
 			</div>
@@ -290,13 +293,13 @@
 				</div>
 				<div class="photos">
 					<div class="photocontainer">
-						<img src="img/flatbook-challenge/sample1.png">
+						<img/flatbook-challenge src="img/flatbook-challenge/sample1.png">
 					</div>
 					<div class="photocontainer">
-						<img src="img/flatbook-challenge/sample2.png">
+						<img/flatbook-challenge src="img/flatbook-challenge/sample2.png">
 					</div>
 					<div class="photocontainer">
-						<img src="img/flatbook-challenge/sample3.png">
+						<img/flatbook-challenge src="img/flatbook-challenge/sample3.png">
 						<div class="overlay">
 							See all 14 photos
 						</div>
@@ -366,7 +369,7 @@
 		
 	</div>
 	<div class="lang">
-		<img src="img/flatbook-challenge/globe.png"> Language and Currency
+		<img/flatbook-challenge src="img/flatbook-challenge/globe.png"> Language and Currency
 	</div>
 	<nav>
 		<div class="logo"></div>
@@ -549,7 +552,7 @@
     		$("#pricerange").on("input change", function() { 
     			var value = $("#pricerange").val();
     			var percent = (value - 1400)/ (3000 - 1400) * 100;
-    			var percentSkewed = (value - 1400)/ (3100 - 1400) * 100;
+    			var percentSkewed = (value - 1400)/ (3200 - 1400) * 100;
     			$('.label').html("$" + $("#pricerange").val()).css("margin-left", percentSkewed + "%");
     			$('.progress-fill').css("width", percent + "%");
     			$('.progress-grey').css("width", 100 - percent + "%");
