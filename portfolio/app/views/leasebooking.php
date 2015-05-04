@@ -247,15 +247,15 @@
 			</div>
 			<div class="stats">
 				<div class="item">
-					<img src="img/bed.png"><br>
+					<img src="img/flatbook-challenge/bed.png"><br>
 					5 Bedrooms
 				</div>
 				<div class="item">
-					<img src="img/bathroom.png"><br>
+					<img src="img/flatbook-challenge/bathroom.png"><br>
 					2 Bathrooms
 				</div>
 				<div class="item">
-					<img src="img/size.png"><br>
+					<img src="img/flatbook-challenge/size.png"><br>
 					1500 sq ft
 				</div>
 			</div>
@@ -290,13 +290,13 @@
 				</div>
 				<div class="photos">
 					<div class="photocontainer">
-						<img src="img/sample1.png">
+						<img src="img/flatbook-challenge/sample1.png">
 					</div>
 					<div class="photocontainer">
-						<img src="img/sample2.png">
+						<img src="img/flatbook-challenge/sample2.png">
 					</div>
 					<div class="photocontainer">
-						<img src="img/sample3.png">
+						<img src="img/flatbook-challenge/sample3.png">
 						<div class="overlay">
 							See all 14 photos
 						</div>
@@ -366,7 +366,7 @@
 		
 	</div>
 	<div class="lang">
-		<img src="img/globe.png"> Language and Currency
+		<img src="img/flatbook-challenge/globe.png"> Language and Currency
 	</div>
 	<nav>
 		<div class="logo"></div>
