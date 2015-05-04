@@ -11,7 +11,9 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script>
 	  	function initialize() {
-	  		var mapCanvas = document.getElementById('map-canvas');
+	  		var mapCanvas = document.getElementById('map-large');
+	  		var mapCanvas2 = document.getElementById('map-small');
+
     		var mapOptions = {
 		      	center: new google.maps.LatLng(45.5017, -73.5673),
 		      	zoom: 15,
@@ -20,6 +22,8 @@
 		      	streetViewControl: false,
 		    }
 		    var map = new google.maps.Map(mapCanvas, mapOptions);
+		    var map2 = new google.maps.Map(mapCanvas2, mapOptions);
+
 		    var marker = new google.maps.Marker({
 			    map:map,
 			    position: new google.maps.LatLng(45.5017, -73.5673),
@@ -30,8 +34,14 @@
 			    position: new google.maps.LatLng(45.5000, -73.5663),
 			    icon: './img/flatbook-challenge/map_pin.png' // null = default icon
 			 });
+		    var marker3 = new google.maps.Marker({
+			    map:map2,
+			    position: new google.maps.LatLng(45.5000, -73.5663),
+			    icon: './img/flatbook-challenge/map_pin.png' // null = default icon
+			 });
 	  	}
 	  	google.maps.event.addDomListener(window, 'load', initialize);
+
 	</script>
 
 
@@ -42,19 +52,24 @@
 	
 	<div class="blurcontainer">
 	<div class="content">
-		
+		<div class="location">
+			<span>CITIES</span>
+			<span class="divider">></span>
+			<span class="back">MONTREAL</span>
+
+			<span class="fv divider" style="display:none">></span>
+			<span class="fv" style="display:none">APARTMENT NAME</span>
+		</div>
 		<div class="search">
 			
 			<div class="details">
 				<div class="row">
 					<div class="item">Lease Term</div>
 					<div class="option">
-						<input class="date" type="text" placeholder="Moving in date">
-					</div>
-					<div class="option">
-						<input class="date" type="text" placeholder="Moving out date">
-					</div>
-					<div class="option">
+						<input class="date" type="text" placeholder="Moving in">
+					
+						<input class="date" type="text" placeholder="Moving out">
+						<div class="moz-select"></div>
 						<select>
 					        <option selected>No Roommates</option>
 					        <option>1 Roommate</option>
@@ -68,6 +83,7 @@
 				<div class="row">
 					<div class="item">Apartment</div>
 					<div class="option">
+						<div class="moz-select bed"></div>
 					    <select id="bed">
 					        <option selected> 1 Bedroom </option>
 					        <option>2 Bedrooms</option>
@@ -75,8 +91,7 @@
 					        <option>4 Bedrooms</option>
 					        <option>5 Bedrooms</option>
 					    </select>
-					</div>
-					<div class="option">
+						<div class="moz-select bath"></div>
 					    <select id="bath">
 					        <option selected> 1 Bathroom </option>
 					        <option>2 Bathrooms</option>
@@ -84,8 +99,7 @@
 					        <option>4 Bathrooms</option>
 					        <option>5 Bathrooms</option>
 					    </select>
-					</div>
-					<div class="option">
+						<div class="moz-select bath"></div>
 					    <select id="size">
 					        <option selected> +1000 sq ft </option>
 					        <option>1000 - 2000 sq ft</option>
@@ -94,7 +108,7 @@
 					    </select>
 					</div>
 				</div>
-				<div class="row oprange">
+				<div class="row">
 					<div class="item ">Price Range</div>
 					<div class="option">
 						<div class="progress">
@@ -225,16 +239,40 @@
 			</div>
 			<div class="stats">
 				<div class="item">
-					<img/flatbook-challenge src="img/flatbook-challenge/bed.png"><br>
+					<img src="img/bed.png"><br>
 					5 Bedrooms
 				</div>
 				<div class="item">
-					<img/flatbook-challenge src="img/flatbook-challenge/bathroom.png"><br>
+					<img src="img/bathroom.png"><br>
 					2 Bathrooms
 				</div>
 				<div class="item">
-					<img/flatbook-challenge src="img/flatbook-challenge/size.png"><br>
+					<img src="img/size.png"><br>
 					1500 sq ft
+				</div>
+			</div>
+			<div class="scrollinfo">
+				<div class="blurred"></div>
+				<div class="topbar">
+					<span class="left">starting at </span>
+					<span class="right per">/month</span>
+					<span class="right">3,995</span>
+					<span class="right dolla">$</span>
+				</div>
+				<div class="scrollbox">
+					<div class="button">
+						apply for lease
+					</div>
+					<div class="button fav">
+						<div class="heart"></div>add to wishlist
+					</div>
+					<div class="share">
+						Share: 
+						<div class="icon fb"></div>
+						<div class="icon tw"></div>
+						<div class="icon ph"></div>
+						<div class="icon em"></div>
+					</div>
 				</div>
 			</div>
 			<div class="about">
@@ -244,13 +282,13 @@
 				</div>
 				<div class="photos">
 					<div class="photocontainer">
-						<img/flatbook-challenge src="img/flatbook-challenge/sample1.png">
+						<img src="img/sample1.png">
 					</div>
 					<div class="photocontainer">
-						<img/flatbook-challenge src="img/flatbook-challenge/sample2.png">
+						<img src="img/sample2.png">
 					</div>
 					<div class="photocontainer">
-						<img/flatbook-challenge src="img/flatbook-challenge/sample3.png">
+						<img src="img/sample3.png">
 						<div class="overlay">
 							See all 14 photos
 						</div>
@@ -303,54 +341,24 @@
 				<div id="am" class="anchor">Amenities</div>
 				<div id="tp" class="anchor">Terms & Pricing</div>
 			</div>
-			<div class="scrollinfo">
-				<div class="blurred"></div>
-				<div class="topbar">
-					<span class="left">starting at </span>
-					<span class="right per">/month</span>
-					<span class="right">3,995</span>
-					<span class="right dolla">$</span>
-				</div>
-				<div class="scrollbox">
-					
-
-					<div class="button">
-						apply for lease
-					</div>
-					<div class="button fav">
-						<div class="heart"></div>add to wishlist
-					</div>
-					<div class="share">
-						Share: 
-						<div class="icon fb"></div>
-						<div class="icon tw"></div>
-						<div class="icon ph"></div>
-						<div class="icon em"></div>
-					</div>
-				</div>
+			<div id="map-small" class="map2">
+				
 			</div>
 
 
 		</div>
 
-		<div class="location">
-			<span>CITIES</span>
-			<span class="divider">></span>
-			<span class="back">MONTREAL</span>
-
-			<span class="fv divider" style="display:none">></span>
-			<span class="fv" style="display:none">APARTMENT NAME</span>
-		</div>
+		
 
 	</div>
 
 	
 
-	<div id="map-canvas" class="map">
+	<div id="map-large" class="map">
 		
 	</div>
 	<div class="lang">
-		<img/flatbook-challenge src="img/flatbook-challenge/globe.png"> Language and Currency
+		<img src="img/globe.png"> Language and Currency
 	</div>
 	<nav>
 		<div class="logo"></div>
