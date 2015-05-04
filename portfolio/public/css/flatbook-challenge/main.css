@@ -50,7 +50,7 @@ nav {
     float: left;
     height: 100%;
     width: 200px;
-    background: url("../img/flatbook-logo-blue.svg") center center no-repeat;
+    background: url("../../img/flatbook-challenge/flatbook-logo-blue.svg") center center no-repeat;
     background-size: 80% auto;
     padding: 0px 18px;
     font-size: 18px;
@@ -222,7 +222,7 @@ nav {
           width: 12px;
           display: inline-block;
           margin-left: 10px;
-          background: url("../img/x-grey.png") center center no-repeat;
+          background: url("../../img/flatbook-challenge/x-grey.png") center center no-repeat;
           background-size: contain; }
       .content .search .results .filters .filt:first-child {
         border-bottom-left-radius: 20px;
@@ -269,7 +269,7 @@ nav {
           top: 10px;
           height: 40px;
           width: 40px;
-          background: url("../img/fav.png") center center no-repeat;
+          background: url("../../img/flatbook-challenge/fav.png") center center no-repeat;
           -webkit-transition: 0.3s all ease-out;
           -moz-transition: 0.3s all ease-out;
           -ms-transition: 0.3s all ease-out;
@@ -307,7 +307,7 @@ nav {
         .content .search .results .listings .apartment .preview {
           height: 200px;
           width: 100%;
-          background: url("../img/preview.png") center center no-repeat;
+          background: url("../../img/flatbook-challenge/preview.png") center center no-repeat;
           background-size: cover; }
         .content .search .results .listings .apartment .info {
           width: 90%;
@@ -333,13 +333,13 @@ nav {
             padding: 14px 22px;
             padding-right: 18px; }
           .content .search .results .listings .apartment .stats .size {
-            background: url("../img/size.png") center left no-repeat;
+            background: url("../../img/flatbook-challenge/size.png") center left no-repeat;
             background-size: 16px auto; }
           .content .search .results .listings .apartment .stats .bath {
-            background: url("../img/bathroom.png") center left no-repeat;
+            background: url("../../img/flatbook-challenge/bathroom.png") center left no-repeat;
             background-size: 16px auto; }
           .content .search .results .listings .apartment .stats .bed {
-            background: url("../img/bed.png") center left no-repeat;
+            background: url("../../img/flatbook-challenge/bed.png") center left no-repeat;
             background-size: 16px auto; }
       .content .search .results .listings .apartment:hover {
         box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.3); }
@@ -351,7 +351,7 @@ nav {
   .content .fullview .pic {
     height: 440px;
     width: 100%;
-    background: url("../img/preview-large.png") center center no-repeat;
+    background: url("../../img/flatbook-challenge/preview-large.png") center center no-repeat;
     background-size: cover; }
   .content .fullview .info {
     width: 94%;
@@ -396,7 +396,7 @@ nav {
       left: 0;
       height: 40px;
       width: 100%;
-      background: url("../img/preview-large.png") right bottom no-repeat;
+      background: url("../../img/flatbook-challenge/preview-large.png") right bottom no-repeat;
       background-size: auto 400px;
       -webkit-filter: blur(3px);
       -moz-filter: blur(3px);
@@ -479,7 +479,7 @@ nav {
       .content .fullview .scrollinfo .scrollbox .button .heart {
         height: 16px;
         width: 16px;
-        background: url("../img/fav-inactive.png") center center no-repeat;
+        background: url("../../img/flatbook-challenge/fav-inactive.png") center center no-repeat;
         background-size: auto 16px;
         margin-right: 5px;
         -webkit-transition: 0.3s all ease;
@@ -502,7 +502,7 @@ nav {
       background-color: #fd6b68;
       border: 2px solid #fd6b68; }
     .content .fullview .scrollinfo .scrollbox .button.fav:hover .heart {
-      background: url("../img/fav-inactive-white.png") center center no-repeat;
+      background: url("../../img/flatbook-challenge/fav-inactive-white.png") center center no-repeat;
       background-size: auto 16px; }
     .content .fullview .scrollinfo .scrollbox .share {
       color: #979797;
@@ -538,28 +538,28 @@ nav {
         margin: 3px; }
       .content .fullview .scrollinfo .scrollbox .share .fb {
         margin-left: 10px;
-        background: url("../img/facebook-white.png") center center #979797 no-repeat;
+        background: url("../../img/flatbook-challenge/facebook-white.png") center center #979797 no-repeat;
         background-size: auto 11px; }
       .content .fullview .scrollinfo .scrollbox .share .fb:hover {
-        background: url("../img/facebook-white.png") center center #45619d no-repeat;
+        background: url("../../img/flatbook-challenge/facebook-white.png") center center #45619d no-repeat;
         background-size: auto 11px; }
       .content .fullview .scrollinfo .scrollbox .share .tw {
-        background: url("../img/twitter-white.png") center center #979797 no-repeat;
+        background: url("../../img/flatbook-challenge/twitter-white.png") center center #979797 no-repeat;
         background-size: auto 10px; }
       .content .fullview .scrollinfo .scrollbox .share .tw:hover {
-        background: url("../img/twitter-white.png") center center #55acee no-repeat;
+        background: url("../../img/flatbook-challenge/twitter-white.png") center center #55acee no-repeat;
         background-size: auto 10px; }
       .content .fullview .scrollinfo .scrollbox .share .ph {
-        background: url("../img/phone.png") center center #979797 no-repeat;
+        background: url("../../img/flatbook-challenge/phone.png") center center #979797 no-repeat;
         background-size: auto 10px; }
       .content .fullview .scrollinfo .scrollbox .share .ph:hover {
-        background: url("../img/phone.png") center center #298cfa no-repeat;
+        background: url("../../img/flatbook-challenge/phone.png") center center #298cfa no-repeat;
         background-size: auto 10px; }
       .content .fullview .scrollinfo .scrollbox .share .em {
-        background: url("../img/email-white.png") center center #979797 no-repeat;
+        background: url("../../img/flatbook-challenge/email-white.png") center center #979797 no-repeat;
         background-size: auto 9px; }
       .content .fullview .scrollinfo .scrollbox .share .em:hover {
-        background: url("../img/email-white.png") center center #298cfa no-repeat;
+        background: url("../../img/flatbook-challenge/email-white.png") center center #298cfa no-repeat;
         background-size: auto 9px; }
   .content .fullview .scrollinfo.fix {
     position: fixed;
@@ -799,7 +799,7 @@ nav {
     cursor: pointer;
     height: 30px;
     width: 30px;
-    background: url("../img/x.png") center center no-repeat;
+    background: url("../../img/flatbook-challenge/x.png") center center no-repeat;
     background-size: contain;
     margin-bottom: 10px; }
   .login-overlay .form {
@@ -877,18 +877,18 @@ nav {
     -ms-flex-pack: center;
     justify-content: center; }
   .login-overlay .em {
-    background: url("../img/email-white.png") center left no-repeat;
+    background: url("../../img/flatbook-challenge/email-white.png") center left no-repeat;
     background-position: 50px 10px; }
   .login-overlay .em:hover {
     color: #298cfa;
-    background: url("../img/email-blue.png") center left no-repeat white;
+    background: url("../../img/flatbook-challenge/email-blue.png") center left no-repeat white;
     background-position: 50px 10px; }
   .login-overlay .fb {
-    background: url("../img/facebook-white.png") center left no-repeat;
+    background: url("../../img/flatbook-challenge/facebook-white.png") center left no-repeat;
     background-position: 50px 8px; }
   .login-overlay .fb:hover {
     color: #298cfa;
-    background: url("../img/facebook-blue.png") center left no-repeat white;
+    background: url("../../img/flatbook-challenge/facebook-blue.png") center left no-repeat white;
     background-position: 50px 8px; }
   .login-overlay .or {
     display: -webkit-box;
@@ -974,7 +974,7 @@ input[type="checkbox"] {
   	/*
       border: 2px solid white;
       background-color:transparent;*/
-  background: url("../img/checkbox.png") top left no-repeat;
+  background: url("../../img/flatbook-challenge/checkbox.png") top left no-repeat;
   color: #FFF;
   white-space: nowrap;
   overflow: hidden;
@@ -984,7 +984,7 @@ input[type="checkbox"] {
   cursor: pointer; }
 
 input[type="checkbox"]:checked {
-  background: url("../img/check-white.png") -15px top no-repeat; }
+  background: url("../../img/flatbook-challenge/check-white.png") -15px top no-repeat; }
 
 .content .search input[type="text"], .content .search input[type="password"] {
   width: 30%;
@@ -1003,7 +1003,7 @@ input[type="checkbox"]:checked {
   -ms-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  background: url("../img/triangle.png") right center no-repeat transparent;
+  background: url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
   color: #979797;
   border-bottom: 2px solid #979797; }
 .content .search ::-webkit-input-placeholder {
@@ -1042,7 +1042,7 @@ input[type="checkbox"]:checked {
   -ms-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  background: url("../img/triangle.png") right center no-repeat transparent;
+  background: url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
   color: #979797; }
 
 .content input[type="date"] {
@@ -1050,7 +1050,7 @@ input[type="checkbox"]:checked {
 
 @-moz-document url-prefix() {
   .moz-select {
-    background: url("../img/triangle.png") right center no-repeat; }
+    background: url("../../img/flatbook-challenge/triangle.png") right center no-repeat; }
 
   .content select {
     height: 40px;
@@ -1065,15 +1065,15 @@ input[type="checkbox"]:checked {
   padding-left: 25px; }
 
 .bed {
-  background: url("../img/bed.png") left center no-repeat, url("../img/triangle.png") right center no-repeat transparent;
+  background: url("../../img/flatbook-challenge/bed.png") left center no-repeat, url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
   background-size: auto 20px, auto auto; }
 
 .size {
-  background: url("../img/size.png") left center no-repeat, url("../img/triangle.png") right center no-repeat transparent;
+  background: url("../../img/flatbook-challenge/size.png") left center no-repeat, url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
   background-size: auto 20px, auto auto; }
 
 .bath {
-  background: url("../img/bathroom.png") left center no-repeat, url("../img/triangle.png") right center no-repeat transparent;
+  background: url("../../img/flatbook-challenge/bathroom.png") left center no-repeat, url("../../img/flatbook-challenge/triangle.png") right center no-repeat transparent;
   background-size: auto 20px, auto auto; }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
