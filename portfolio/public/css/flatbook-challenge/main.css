@@ -757,6 +757,7 @@ nav {
   height: 100%;
   width: 100%;
   z-index: 14;
+  overflow: auto;
   background: -webkit-linear-gradient(left, rgba(41, 140, 250, 0.8), rgba(200, 109, 215, 0.8));
   /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, rgba(41, 140, 250, 0.8), rgba(200, 109, 215, 0.8));
@@ -766,46 +767,23 @@ nav {
   background: linear-gradient(to right, rgba(41, 140, 250, 0.8), rgba(200, 109, 215, 0.8));
   /* Standard syntax (must be last) */
   color: white;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  text-align: center;
   -webkit-transition: 0.4s all ease;
   -moz-transition: 0.4s all ease;
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
   transition: 0.4s all ease; }
-  .login-overlay .dark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.1); }
   .login-overlay .close {
     cursor: pointer;
     height: 30px;
     width: 30px;
     background: url("../../img/flatbook-challenge/x.png") center center no-repeat;
     background-size: contain;
-    margin-bottom: 10px; }
+    margin: 40px auto; }
   .login-overlay .form {
     width: 50%;
     text-transform: uppercase;
-    margin: 40px 0; }
+    margin: 40px auto; }
     .login-overlay .form span {
       display: block; }
     .login-overlay .form .other {
@@ -905,7 +883,8 @@ nav {
     justify-content: center;
     color: #92c7fa;
     height: 40px;
-    width: 50%; }
+    width: 50%;
+    margin: 0 auto; }
     .login-overlay .or .line {
       width: 45%;
       height: 2px;
@@ -916,8 +895,7 @@ nav {
       width: 10%; }
   .login-overlay .signup {
     width: 46%;
-    margin: 10px;
-    margin-top: 20px;
+    margin: 20px auto;
     border-top: 2px solid #92c7fa;
     padding: 20px;
     color: #92c7fa;
